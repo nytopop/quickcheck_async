@@ -1,0 +1,34 @@
+[package]
+name = "quickcheck_async"
+version = "0.1.0"
+authors = ["nytopop <ericizoita@gmail.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "Runtime-agnostic attribute macros to use quickcheck with async tests."
+homepage = "https://github.com/nytopop/quickcheck_async"
+repository = "https://github.com/nytopop/quickcheck_async"
+documentation = "https://docs.rs/quickcheck_async"
+keywords = ["quickcheck", "async", "fuzz", "test", "testing"]
+
+[lib]
+name = "quickcheck_async"
+path = "src/lib.rs"
+proc-macro = true
+
+[dependencies]
+syn = "1.0"
+quote = "1.0"
+
+[dev-dependencies]
+quickcheck = "0.9"
+futures = "0.3"
+syn = "1.0"
+quote = "1.0"
+
+[dev-dependencies.tokio]
+version = "0.2"
+features = ["rt-threaded", "macros"]
+
+[dev-dependencies.async-std]
+version = "1.5"
+features = ["attributes"]
