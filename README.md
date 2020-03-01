@@ -1,4 +1,4 @@
-# quickcheck-async <a href="https://crates.io/crates/quickcheck_async"><img alt="Crates.io" src="https://img.shields.io/crates/v/quickcheck_async?style=flat-square"></a> <a href="https://crates.io/crates/quickcheck_async"><img alt="Crates.io" src="https://img.shields.io/crates/d/quickcheck_async?style=flat-square"></a> <a href="./LICENSE-APACHE"><img alt="Apache-2.0 OR MIT" src="https://img.shields.io/crates/l/quickcheck_async?style=flat-square"></a>
+# quickcheck_async <a href="https://crates.io/crates/quickcheck_async"><img alt="Crates.io" src="https://img.shields.io/crates/v/quickcheck_async?style=flat-square"></a> <a href="https://crates.io/crates/quickcheck_async"><img alt="Crates.io" src="https://img.shields.io/crates/d/quickcheck_async?style=flat-square"></a> <a href="./LICENSE-APACHE"><img alt="Apache-2.0 OR MIT" src="https://img.shields.io/crates/l/quickcheck_async?style=flat-square"></a>
 
 # License
 Licensed under either of
