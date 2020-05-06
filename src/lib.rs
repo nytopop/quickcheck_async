@@ -108,7 +108,11 @@ pub fn tokio(args: TokenStream, item: TokenStream) -> TokenStream {
                 ::futures::executor::block_on(#call_by(#ids))
             };
 
-            ::quickcheck::quickcheck(test_fn);
+            ::tokio::task::spawn_blocking(move || {
+                ::quickcheck::quickcheck(test_fn)
+            })
+            .await
+            .unwrap()
         }
     )
     .into()

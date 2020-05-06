@@ -1,6 +1,6 @@
 [package]
 name = "quickcheck_async"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["nytopop <ericizoita@gmail.com>"]
 edition = "2018"
 license = "MIT OR Apache-2.0"
@@ -27,7 +27,7 @@ quote = "1.0"
 
 [dev-dependencies.tokio]
 version = "0.2"
-features = ["rt-threaded", "macros"]
+features = ["rt-threaded", "macros", "blocking"]
 
 [dev-dependencies.async-std]
 version = "1.5"
